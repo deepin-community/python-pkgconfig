@@ -1,0 +1,2 @@
+Tests: list-packages
+Depends: python3-pkgconfig

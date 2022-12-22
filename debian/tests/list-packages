@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+
+import pkgconfig
+
+if len(pkgconfig.list_all()) <= 0:
+   raise Exception('Error listing packages')
